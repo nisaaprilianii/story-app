@@ -1,0 +1,46 @@
+{
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "name": "Berbagi Cerita",
+  "short_name": "Cerita",
+  "description": "Aplikasi berbagi cerita untuk seluruh pengguna.",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d97706",
+  "icons": [
+    { "src": "/images/logo-192.png", "type": "image/png", "sizes": "192x192", "purpose": "any" },
+    { "src": "/images/logo-512.png", "type": "image/png", "sizes": "512x512", "purpose": "any" }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshots/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Tampilan Desktop",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/screenshots/screenshot-mobile.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "label": "Tampilan Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tambah Cerita",
+      "short_name": "Tambah",
+      "description": "Langsung tambah cerita baru",
+      "url": "/#add-story",
+      "icons": [{ "src": "/images/logo-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Lihat Cerita Terbaru",
+      "short_name": "Terbaru",
+      "description": "Lihat cerita terbaru",
+      "url": "/#latest",
+      "icons": [{ "src": "/images/logo-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/favicon.png" />
+  <title>Berbagi Cerita</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="/styles/styles.css" />
+  <link rel="manifest" href="/app.webmanifest" />
+  <link rel="shortcut icon" href="/favicon.png" />
+
+  <script type="module" src="/scripts/index.js" defer></script>
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
+  <header>
+    <div class="main-header container">
+      <h1>
+        Berbagi Cerita
+      </h1>
+
+      <nav id="navigation-drawer" class="navigation-drawer">
+        <ul id="nav-list" class="nav-list">
+          <li><a href="/#">Beranda</a></li>
+          <li><a href="/#about">About</a></li>
+          <li id="nav-login"><a href="/#login">Login</a></li>
+          <li id="nav-register"><a href="/#register">Register</a></li>
+          <li id="nav-logout" style="display:none;"><a href="#">Logout</a></li>
+        </ul>
+       <button id="toggle-push" class="btn-toggle-push" title="Aktifkan Notifikasi">🔔</button>
+      </nav>
+
+      <button id="drawer-button" class="drawer-button" aria-label="Toggle Navigation">☰</button>
+    </div>
+  </header>
+
+  <main id="main-content" class="main-content"></main>
+
+  <footer class="container">
+    <p style="text-align:center; margin-top:2rem;">&copy; 2025 Berbagi Cerita. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

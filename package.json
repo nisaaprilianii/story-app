@@ -1,0 +1,19 @@
+{
+  "name": "starter-project-with-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0"
+  },
+  "dependencies": {
+    "idb": "^8.0.3",
+    "leaflet": "^1.9.4",
+    "workbox-precaching": "^7.3.0"
+  }
+}
